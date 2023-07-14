@@ -110,7 +110,7 @@ static ssize_t ddsi_raweth_conn_write (struct ddsi_tran_conn * conn, const ddsi_
 {
   ddsi_raweth_conn_t uc = (ddsi_raweth_conn_t) conn;
   dds_return_t rc;
-  ssize_t ret;
+  ssize_t ret = -1;
   unsigned retry = 2;
   int sendflags = 0;
   struct msghdr msg;
