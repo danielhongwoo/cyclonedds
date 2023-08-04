@@ -12,7 +12,7 @@
 #include <errno.h>
 #include <ifaddrs.h>
 #include <string.h>
-#include <if.h>
+#include <net/if.h>
 
 #include "dds/ddsrt/heap.h"
 #include "dds/ddsrt/ifaddrs.h"
