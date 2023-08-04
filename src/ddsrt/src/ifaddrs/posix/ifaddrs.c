@@ -11,6 +11,7 @@
 #include <assert.h>
 #include <errno.h>
 #include <ifaddrs.h>
+#include <if.h>
 #include <string.h>
 
 #include "dds/ddsrt/heap.h"
